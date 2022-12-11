@@ -1,10 +1,8 @@
 // Personal data set
-const inputCase = `
-`
+const inputCase = ``
 
 // Provided test case
-const testCase = `
-`
+const testCase = ``
 
 
 // This can vary
@@ -18,6 +16,8 @@ const resolve = (input) => {
 const parsedTest = parseInput(testCase);
 const test = resolve(parsedTest);
 
+
+console.log('Test solutions: ', test)
 console.assert(test === 'expectedSolution', 'Test case failed');
 
 const parsedInput = parseInput(inputCase);
